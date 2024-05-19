@@ -35,4 +35,8 @@ AWS
    -- ECS Full Access
 2. Create the ECR - In Private - copy the URL
 3. Now give the Credentials of IAM in Jenkins
-4. In ECS - Create the Cluster and Task Definition 
+4. In ECS - Create the Cluster and Task Definition with ECR Url port:8080
+   -- Task Definition = Create Container
+   -- Services = manage Container
+5. ECS - Services- Copy the DNS name and hit it in the browser
+
